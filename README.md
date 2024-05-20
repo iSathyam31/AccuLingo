@@ -22,7 +22,7 @@ This project is a Language Translator built using IBM's Watson Language Translat
 6. Run the application and start translating!
 
 ## Usage
-1. Run `python translator.py`.
+1. Run `streamlit run translator.py`.
 2. Enter the text you want to translate and select the source and target languages.
 3. Press enter to see the translated text.
 
