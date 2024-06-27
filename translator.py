@@ -5,8 +5,8 @@ from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 ## Setting up the API Key configuaration
-API_key = 'I6eCsG3fVH6k-L_4MYAbvgD_eoXk1U480UC8GezkUUcc'
-url = 'https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/209d939b-59cb-4001-a707-013244cee735'
+API_key = os.environ['IBM_API_KEY']
+url = os.environ['url']
 
 authenticator = IAMAuthenticator(apikey=API_key)
 
