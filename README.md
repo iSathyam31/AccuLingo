@@ -9,7 +9,7 @@ This project is a Language Translator built using IBM's Watson Language Translat
 - Simple and intuitive user interface.
 
 ## Requirements
-- Python 3.x
+- Python 3.x 
 - IBM Cloud account with access to Watson Language Translator API
 - Install the `ibm-watson` Python package (`pip install ibm-watson`)
 
